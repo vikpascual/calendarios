@@ -1,0 +1,81 @@
+/* Creado por Víctor Pascual Muñoz */
+@charset "utf-8";
+body {
+    background-color: #95E1FF;
+    font-family: sans-serif;
+  }
+div {
+    background-color: lightyellow;
+    border: black 1px solid;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+  }
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+  }
+div.primero table {
+    border-collapse: collapse;
+    border: none;
+    text-align: center;
+  }
+div.primero caption {
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+div.primero td {
+    width: 48px;
+    border-left: none;
+    border-right: none;
+  }
+div.primero th {
+    width: 48px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+div.segundo table {
+    border: none;
+    border-collapse: collapse;
+    text-align: right;
+  }
+div.segundo caption {
+    font-weight: bold;
+    text-align: right;
+  }
+div.segundo th {
+    border-top: none;
+    border-bottom: none;
+    padding-right: 5px;
+  }
+div.segundo td {
+    border-top: none;
+    border-bottom: none;
+    font-size: 150%;
+    padding-right: 5px;
+    width: 24px;
+  }
+div.tercero table {
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+  }
+div.tercero caption {
+    font-variant: small-caps;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+div.tercero th {
+    text-align: center;
+  }
+div.tercero td {
+    width: 64px;
+    height: 64px;
+    padding-left: 5px;
+    font-size: 70%;
+    vertical-align: top;
+  }
